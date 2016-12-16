@@ -12,23 +12,113 @@ box-sizing: border-box;
 -ms-text-size-adjust: 100%;
 -webkit-text-size-adjust: 100%;
 text-size-adjust: 100%;
-padding: 10% 10% 10% 10%;
+text-align: center;
 }
 
 *, *:before, *:after {
 box-sizing: inherit;
 }
 
-.top {
+.header {
 	width: 100%;
-	height: 20%;
+	height: 55%;
 	position: fixed;
+	top: 0;
+	background-color: #00adf0;
 }
 
-.biography {
-	padding: 120% 0% 0% 0%;
+.logo {
+	width: 80%;
+  padding-right: 10%;
+  padding-top: 10%;
+	padding-left: 10%;
 }
 
-.artwork {
-	margin-top: inherit;
+nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: Futura PT;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #596365;
+}
+
+nav a:hover {
+	text-decoration: none;
+	font-family: Futura PT;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: normal;
+	text-transform: normal;
+	letter-spacing: normal;
+	line-height: 1.3em;
+	color: #ffffff;
+}
+
+.picture {
+	padding-left: 30%;
+
+}
+
+h2 {
+	font-size: 17pt;
+}
+
+.web {
+	padding-top: 130%;
+}
+.brand {
+	padding-top: 130%;
+}
+.illustrate {
+	padding-top: 130%;
+}
+.main {
+	width: 100%;
+}
+
+img {
+	display: inline-block;
+	width: 24%;
+}
+
+figcaption {
+	padding: 0% 0% 10% 0%;
+}
+
+p {
+	padding-bottom: 10%;
+}
+
+footer {
+	display: inline-block;
+	bottom: 0;
+}
+
+@media only screen and (min-width: 375px) {
+
+	.header {
+		height: 60%;
+	}
+
+	.web {
+		padding-top: 120%;
+	}
+	.brand {
+		padding-top: 120%;
+	}
+	.illustrate {
+		padding-top: 120%;
+	}
+
 }
